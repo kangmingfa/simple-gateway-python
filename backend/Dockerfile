@@ -2,14 +2,14 @@
 # Dockerfile for Django Simple Gateway
 # ========================================
 # 构建镜像:
-#   docker build -t django-gateway .
+#   docker build -t django-app .
 #
 # 运行容器 (通过环境变量注入 SERVER_ID 和 MODEL_NAME):
 #   docker run -d \
 #     -p 8000:8000 \
 #     -e SERVER_ID=server-001 \
 #     -e MODEL_NAME=gpt-4 \
-#     django-gateway
+#     django-app
 #
 # 访问接口:
 #   curl http://localhost:8000/v1/model
