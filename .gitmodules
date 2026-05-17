@@ -1,0 +1,4 @@
+[submodule "urllib3"]
+	path = urllib3
+	url = https://github.com/kangmingfa/urllib3.git
+	branch = lb_7layer_support_in_pool
